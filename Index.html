@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Bandhna Rani, aspiring DevOps and Cloud Engineer.">
+<title>Bandhna Rani | DevOps & Cloud Portfolio</title>
+<style>
+:root{--bg:#080d18;--panel:#101a2b;--panel2:#0c1422;--text:#edf3ff;--muted:#a6b4cc;--blue:#58a6ff;--cyan:#61e6d3;--line:#22314a}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 80% 0%,#142747 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:20px}
+.brand{font-weight:800;font-size:1.15rem;letter-spacing:.4px}.brand span{color:var(--cyan)}
+.navlinks{display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:var(--cyan)}
+.hero{min-height:75vh;display:grid;grid-template-columns:1.35fr .65fr;gap:48px;align-items:center;padding:65px 0 85px}
+.eyebrow{color:var(--cyan);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.04;letter-spacing:-2px;margin:14px 0 20px}
+h1 span{color:var(--blue)}.lead{font-size:1.15rem;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-block;border:1px solid var(--blue);border-radius:9px;padding:11px 18px;font-weight:700;transition:.2s}
+.btn.primary{background:var(--blue);color:#07101e}.btn:hover{transform:translateY(-2px)}
+.hero-card{background:linear-gradient(145deg,#15243b,#0c1422);border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:0 25px 70px #0005}
+.avatar{width:94px;height:94px;border-radius:22px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#07101e;font-size:2rem;font-weight:900;margin-bottom:20px}
+.hero-card h3{margin:0 0 5px}.hero-card p{color:var(--muted);margin:0}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.tag{font-size:.82rem;padding:5px 10px;border:1px solid #2c4261;border-radius:99px;color:#c9d9f1;background:#0b1525}
+section{padding:65px 0}.section-title{font-size:2rem;margin:0 0 8px}.section-intro{color:var(--muted);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:linear-gradient(145deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:17px;padding:24px}
+.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0 0 15px}.card ul{padding-left:20px;color:var(--muted);margin-bottom:0}
+.pill-list{display:flex;flex-wrap:wrap;gap:10px}.pill{border:1px solid var(--line);background:#101a2b;padding:10px 14px;border-radius:10px}
+.meta{color:var(--cyan);font-size:.9rem;font-weight:700}
+.timeline{border-left:2px solid #2c4e72;padding-left:24px;margin-left:8px}.timeline .card{margin-bottom:18px}
+.contactbox{display:flex;justify-content:space-between;align-items:center;gap:25px;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.9rem}
+.small{font-size:.9rem;color:var(--muted)}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:42px;min-height:auto}.grid{grid-template-columns:1fr}.navlinks{gap:12px}nav{align-items:flex-start;flex-direction:column}h1{letter-spacing:-1px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="#home">Bandhna<span>.</span></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+</nav>
+<main>
+<section class="hero" id="home">
+  <div>
+    <div class="eyebrow">Aspiring DevOps / Cloud Engineer</div>
+    <h1>Hi, I'm <span>Bandhna Rani.</span></h1>
+    <p class="lead">A Computer Science Engineering student who enjoys exploring cloud technologies, containerization, and practical ways to make software deployment more reliable.</p>
+    <div class="actions"><a class="btn primary" href="#projects">Explore my projects ↓</a><a class="btn" href="#contact">Get in touch</a></div>
+  </div>
+  <aside class="hero-card">
+    <div class="avatar">BR</div>
+    <h3>Learning by building</h3>
+    <p>Computer Science & Engineering · GNA University</p>
+    <div class="tags"><span class="tag">Docker</span><span class="tag">AWS</span><span class="tag">Git & GitHub</span><span class="tag">MERN Stack</span></div>
+  </aside>
+</section>
+
+<section id="about">
+  <div class="eyebrow">A little about me</div><h2 class="section-title">Curious mind. Practical approach.</h2>
+  <p class="section-intro">I’m a B.Tech CSE student at GNA University, graduating in 2027. I’m building my foundation in software development, cloud computing, and DevOps through academic projects and hands-on learning. I’m a quick learner, adaptable, self-motivated, and collaborative, and I’m looking for an entry-level opportunity to keep learning while contributing to reliable software delivery.</p>
+</section>
+
+<section id="skills">
+  <div class="eyebrow">My toolkit</div><h2 class="section-title">Technical Skills</h2><p class="section-intro">Technologies and tools from my current learning and project experience.</p>
+  <div class="grid">
+    <div class="card"><h3>Programming</h3><div class="pill-list"><span class="pill">C</span><span class="pill">C++</span><span class="pill">Java</span><span class="pill">Python</span></div></div>
+    <div class="card"><h3>Cloud & DevOps</h3><div class="pill-list"><span class="pill">Cloud Computing</span><span class="pill">Docker</span><span class="pill">Docker Compose</span><span class="pill">Git</span><span class="pill">GitHub</span></div></div>
+    <div class="card"><h3>Web Development</h3><div class="pill-list"><span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">React.js</span><span class="pill">Node.js</span><span class="pill">Express.js</span></div></div>
+    <div class="card"><h3>Databases & Tools</h3><div class="pill-list"><span class="pill">SQL</span><span class="pill">DBMS</span><span class="pill">MongoDB</span><span class="pill">Postman</span></div></div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="eyebrow">What I'm working on</div><h2 class="section-title">Featured Projects</h2><p class="section-intro">Practical projects that connect application development with deployment and cloud data workflows.</p>
+  <div class="grid">
+    <article class="card">
+      <div class="meta">Academic Project · MERN + Docker</div>
+      <h3>Containerization and Deployment of a MERN Stack Web Application Using Docker</h3>
+      <p>A full-stack web application using MongoDB, Express.js, React.js, and Node.js, packaged to support a more consistent development and deployment environment.</p>
+      <ul><li>Uses Docker and Docker Compose for containerization.</li><li>Uses Git/GitHub for version control.</li><li>Uses Postman for API testing.</li></ul>
+      <div class="tags"><span class="tag">MongoDB</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Docker</span></div>
+    </article>
+    <article class="card">
+      <div class="meta">In Progress · AWS</div>
+      <h3>Formula 1 Lakehouse Data Pipeline on AWS</h3>
+      <p>An advanced data engineering project focused on collecting, processing, and organizing Formula 1 data for analysis using AWS cloud services.</p>
+      <ul><li>Explores cloud-based data workflow design.</li><li>Focuses on scalable storage and structured data processing.</li><li>Currently in the design and development stage.</li></ul>
+      <div class="tags"><span class="tag">AWS</span><span class="tag">Data Pipeline</span><span class="tag">Cloud Storage</span><span class="tag">Analytics</span></div>
+    </article>
+  </div>
+  <p class="small" style="margin-top:16px">Project links can be added here once the repositories or live demos are available.</p>
+</section>
+
+<section id="education">
+  <div class="eyebrow">My journey</div><h2 class="section-title">Education & Leadership</h2>
+  <div class="timeline">
+    <div class="card"><div class="meta">Expected graduation · 2027</div><h3>B.Tech in Computer Science and Engineering</h3><p>GNA University · Punjab, India</p></div>
+    <div class="card"><div class="meta">Student Outreach</div><h3>YHills Campus Ambassador</h3><p>Supported awareness of student learning programs by sharing program information with students and developing communication, coordination, and student-engagement skills.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="card contactbox"><div><div class="eyebrow">Let's connect</div><h2 class="section-title">Have an opportunity or idea?</h2><p class="section-intro" style="margin-bottom:0">I’m open to learning, collaborating, and entry-level opportunities in DevOps and cloud computing.</p></div>
+    <div class="actions">
+      <a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email me</a>
+      <a class="btn" href="https://github.com/bandhnarani913-ship-it" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </div>
+  </div>
+  <p class="small" style="margin-top:14px">Before publishing, replace the email placeholder and add your phone number and LinkedIn profile.</p>
+</section>
+</main>
+<footer><div class="wrap" style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><span>© <span id="year"></span> Bandhna Rani</span><span>Built with HTML & CSS · DevOps / Cloud Portfolio</span></div></footer>
+</div>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
